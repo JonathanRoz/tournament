@@ -1,0 +1,51 @@
+#copy-part{
+    background: #ffffff;
+    -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,.20%);
+    -moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,.20%);
+    box-shadow: -1px -1px 8px 0px rgba(0,0,0,.20%);
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        p{
+            color: #777777;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            span{
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+    .bottom-top{
+        filter: drop-shadow(0 0 0.3rem #ffcc33);
+    border-color: #ffcc33 !important;
+    width: 50px;
+    height: 50px;
+    background: #ffcc33 ;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 72px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    animation: bot-spin .9s infinite;
+    
+}
+
+@keyframes bot-spin{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,142 @@
+#testi-part{
+    margin-top: 100px;
+    .title{
+        text-align: center;
+        h1{
+            @include titleh1(40px,500,$primarycolor);
+            position: relative;
+            &::after{
+                position: absolute;
+                bottom: -48px;
+                left: 34%;          
+                width: 12%;
+                height: 2px;
+                background: #444444;
+                content: "";
+                opacity: .3;
+            }
+            &::before{
+              position: absolute;
+              bottom: -48px;
+              right:  34%;          
+              width: 12%;
+              height: 2px;
+              background: #444444;
+              content: "";
+              opacity: .3;
+          }
+            
+            }
+    }
+    .testi-item{
+        position: relative;
+        background: url(../image/testi-background.png) no-repeat center;
+        background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 350px;
+        margin-top: 170px;
+        text-align: center;
+        background-attachment: fixed;
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0,.8);
+        }
+        .details{
+            background: #fff;
+            padding: 20px;
+            position: absolute;
+            top: 1%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0,.5));
+            text-align: center;
+            .siromoni{
+                position: absolute;
+                bottom: -15px;
+                left: 50%;
+                background: #fff;
+                width: 30px;
+                height: 30px;
+                transform: translateX(-50%) rotate(45deg);
+                border-radius: 3px;
+            }
+            p{
+                color: $primarycolor;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                width: 1026px;
+                line-height: 32px;
+            }
+            h4{
+                font-family: 'Great Vibes', cursive;
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+        }
+        .round{
+            width: 150px;
+            height: 150px;
+            background: #fff;
+            position: absolute;
+            top: 151px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+            border-radius: 50%;
+            overflow: hidden;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           img{
+               
+            margin-top: 320px;
+            margin-left: 16px;
+              width: 200%;
+
+           }
+        }
+        h3{
+            position: absolute;
+            bottom: 98px;
+            left: 50%;
+            z-index: 99;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            transform: translateX(-50%);
+        }
+        ul{
+            position: absolute;
+            bottom: 55px;
+            left: 49%;
+            transform: translateX(-50%);
+            li{
+                display: inline-block;
+                margin: 0 4px;
+                i{
+                    font-size: 16px;
+                    color: #ffcc33;
+                }
+            }
+        }
+        h5{
+            color: #fff;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            position: absolute;
+            bottom: 31px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9;
+        }
+
+    }
+}

@@ -1,0 +1,128 @@
+header{
+position: absolute;
+width: 100%;
+top: 0;
+z-index: 999;
+left: 0;
+background: transparent;
+    padding: 20px;
+  .greeting{
+    ul{
+        position: relative;
+        margin-top: 25px;
+     &::after{
+         position: absolute;
+    width: 99%;
+    height: 1px;
+    content: "";
+    background: #6d747c;
+    bottom: -13px;
+    left: -166px;
+     }
+        
+        li{
+            text-align: right;
+            p{
+               color:  $thirdcolor;
+               font-family: 'Open Sans', sans-serif;
+               font-weight: 400;
+               font-size: 15px;
+               text-transform: capitalize;
+               margin-right: 175px;
+               margin-top: 31px;
+           
+            }
+        }
+    }
+  }
+  .login{
+      display: flex;
+      margin-left: 45px;
+      ul{
+        margin-left: 48px;
+       position: relative;
+       &::after{
+        position: absolute;
+        width: 291%;
+        height: 1px;
+        content: "";
+        background: #6d747c;
+        bottom: -12px;
+        right: -204%;    
+    
+        }
+    }
+          li{
+              display: inline-block;
+              margin: 0 10px;
+            cursor: pointer;
+            h5{
+              font-family: 'Oswald', sans-serif;
+              color: $secoundcolor ;
+              font-size: 15px;
+            font-weight: 400;
+        position: relative;
+        top: 27px;
+        left: 0;
+            }
+              p{
+                font-family: 'Oswald', sans-serif;
+                color: $secoundcolor ;
+                font-size: 15px;
+                font-weight: 400;
+                position: relative;
+                top: 29px;
+
+                &::after{
+                    position: absolute;
+                    top: 0;
+                    right: -22%;
+                    content: "";
+                    background: #444444;
+                    width: 1px;
+                    height: 22px;
+                }
+
+              }
+
+          }
+      }
+      .fms{ 
+          margin-top: 32px;
+          position: relative;
+          &::after{
+            position: absolute;
+            bottom: 13px;
+            left: 11px;
+            content: "";
+            background: #444444;
+            width: 59%;
+            height: 1px;
+        }
+        i{
+            position: absolute;
+            top: 0px;
+            left: 88px;
+            font-size: 20px;
+            color: $secoundcolor;
+        }
+
+      }
+      .form-control {
+        border: 1px solid transparent;
+        height: 50%;
+         width: 66%;
+        font-weight: 400;
+         font-family: 'Oswald', sans-serif;
+         background-color: transparent;
+         color: #444444;
+  
+      }
+    .form-control:focus { 
+        border-color: transparent;
+        box-shadow: 0 0 0 .25rem transparent;
+        background-color: transparent;
+    }
+
+    }
+  

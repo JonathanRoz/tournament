@@ -1,0 +1,46 @@
+#trainee-part{
+    margin-top: 300px;
+    .traniee-item-left{
+position: relative;
+.couch-pic{
+    position: absolute;
+    top: -125px;
+    left: 339px;
+}
+      
+    }
+    .traniee-item-right{
+        text-align: right;
+        background: #ffe596;
+        padding: 40px;
+        h3{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: $primarycolor;
+          
+            margin-bottom: 30px;
+           }
+           p{
+            color: #444444;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+          
+           }
+           a{
+               display: inline-block;
+               padding: 20px 22px;
+               border: 1px solid #444444;
+               color: #444444;
+               font-family: 'Raleway', sans-serif;
+               font-weight: 500;
+               font-size: 18px;
+               border-radius: 5px;
+              
+               margin-top: 30px;
+           }
+    }
+    
+}

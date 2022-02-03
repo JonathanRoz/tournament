@@ -1,0 +1,9 @@
+@mixin titleh1($s,$w,$color) {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: $s;
+    font-weight:$w ;
+ color: $color;
+ margin-bottom: 18px;
+ 
+}

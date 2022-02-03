@@ -1,0 +1,100 @@
+#shedule-part{
+  margin-top: 143px;
+  .title{
+      text-align: center;
+      h1{
+          @include titleh1(40px,500,$primarycolor);
+          position: relative;
+          &::after{
+              position: absolute;
+              bottom: -48px;
+              left: 34%;          
+              width: 12%;
+              height: 2px;
+              background: #444444;
+              content: "";
+              opacity: .3;
+          }
+          &::before{
+            position: absolute;
+            bottom: -48px;
+            right:  34%;          
+            width: 12%;
+            height: 2px;
+            background: #444444;
+            content: "";
+            opacity: .3;
+        }
+          
+          }
+  }
+
+  .item{
+     margin-top: 40px;
+     .item-title{
+         text-align: center;
+         margin-bottom: 30px;
+         h2{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: $primarycolor;
+            text-transform: capitalize;
+         }
+       
+     }
+     table{
+         tr{
+             th{
+                 padding: 20px;
+                 text-align: center;
+                 background: #ffcc33;
+             }
+             .date{
+            
+                 width: 26%;
+                 border-right: 1px solid #dddddd;
+             }
+             .month{
+                 width: 20%;
+             }
+             .team{
+                 width: 60%;
+                 border-left: 1px solid #dddddd;
+             }
+             td{
+                 padding: 20px;
+                 border-bottom: 1px solid #dddddd ;
+             }
+             .oct{
+                width: 31%;
+                border-left: 1px solid #dddddd;
+                border-right: 1px solid #dddddd;
+                color: #444444;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                
+             }
+             .dat{
+                 border-right: 1px solid #dddddd;
+                 color: #444444;
+                 font-family: 'Open Sans', sans-serif;
+                 font-weight: 400;
+                 font-size: 16px;
+             }
+             .red{
+                border-right: 1px solid #dddddd;
+                color: #444444;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+
+             }
+         }
+     }
+    
+    
+  }
+}

@@ -1,0 +1,172 @@
+nav{
+position: absolute !important;
+width: 100%;
+z-index: 999;
+top: 110px;
+left: 0;
+background: transparent !important;
+    .navbar-brand{
+        position: relative;
+        top: -114px;
+        left: 38%;
+    }
+    .left-navs{
+        margin-left: -131px;
+        li{
+           margin: 0 10px;
+         
+            .nav-link{
+                margin-top: -89px;
+            }
+            a{
+                font-family: 'Oswald', sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                color: $thirdcolor !important;
+                position: relative;
+                transition: .4s;
+                &::after{
+                    position: absolute;
+                   bottom: 0;
+                   left: 0;
+                   content: "";
+                   background: #ffcc33;
+                   width: 0%;
+                   height: 1px;
+                   transition: .4s;
+                }
+                &:hover{
+                    color: #ffcc33 !important;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .right-navs{
+        margin-top: -135px;
+        margin-right: 6%;
+        li{
+            margin: 0 10px;
+            position: relative;
+            a{
+                font-family: 'Oswald', sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                color: $primarycolor !important;
+                position: relative;
+                transition: .4s;
+                &::after{
+                    position: absolute;
+                   bottom: 0;
+                   left: 0;
+                   content: "";
+                   background: #ffcc33 ;
+                   width: 0;
+                   height: 1px;
+                   transition: .4s;
+                }
+                &:hover{
+                    color: #ffcc33 !important;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+            .drop-menu{
+                background: #000;
+                position: absolute;
+                bottom: -177px;
+                left: -63px;
+                width: 179px;
+                border-bottom-left-radius: 20px;
+                border-top-right-radius: 20px;
+                opacity: 0;
+                visibility: hidden;
+               transform: scale(0);
+                transition: .4s;
+                .menu-name{
+                    padding: 10px;
+                    ul{
+                        li{
+                            margin: 10px 0;
+                            a{
+                                text-transform: capitalize;
+                                color: #fff !important;
+                                transition: .4s;
+                                &:hover{
+                                    color: #ffcc33 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .drop-two{
+                top: 40px;
+                left: -43px;
+                padding-bottom: 254px;
+            }
+            &:hover .drop-menu{
+                opacity:1;
+                visibility: visible;
+                transform: scale(1);
+               
+            }
+
+        }
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: $primarycolor;
+        margin-top: -118px;
+        
+    margin-right: 6%;
+
+    }
+   
+}
+.top{
+    background: $primarycolor !important;
+    padding: 10px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+     .navbar-brand {
+        position: relative;
+        top: 4px;
+        left: 41%;
+        img{
+            width: 74%;
+        }
+    }
+     .left-navs {
+        margin-left: -131px;
+        margin-top: 120px;
+    }
+     .right-navs {
+        margin-top: -17px;
+        margin-right: 6%;
+    
+     li{
+         a{color: #fff !important;} 
+        
+    }
+}
+animation: nav-ani 2s;
+
+
+}
+@keyframes nav-ani{
+    from{
+        margin-top: -50px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,321 @@
+#banner-part{
+  overflow: hidden;
+  height: 641px;
+    position: relative;
+    .carousel-inner {
+        overflow: visible;
+       }
+    .carousel-item{
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        background: rgba(0, 0, 0,.4);
+        }
+        .item{
+         position: absolute;
+         top: 0;
+         left: 0;
+            width: 100%;
+            z-index: 99;
+            .banner-details{
+                position: relative;
+                &::after{
+                        position: absolute;
+                        top: 0;
+                        left: -157px;
+                        background: rgba(255, 204, 51, 0.4);
+                        content: "";
+                        width: 120%;
+                      padding-top: 100px;
+                      padding-bottom: 475px;
+
+                        -webkit-clip-path: polygon(32% 0, 100% 0%, 100% 100%, 9% 100%);
+                        clip-path: polygon(32% 0, 100% 0%, 100% 100%, 9% 100%);
+                        z-index: -1;
+                    
+                }
+                h1{
+                    position: relative;
+                    top: 227px;
+                    left: 253px;              
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 40px;
+                    color: $primarycolor;
+                    text-transform: capitalize;
+                }
+               .timess{
+                   position: relative;
+                   top: 115px;
+                   left: -18px;
+                .days-frist{
+                        height: 80px;
+                        width: 47%;
+                       border: 1px solid #fff;
+                        text-align: center;
+                        margin-left: 210px;
+                        position: relative;
+                        border-radius: 5px;
+                        padding-top: 11px;
+                    #day{
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                        font-size: 20px;
+                      color: $primarycolor;
+                    }
+                    h4{
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                        font-size: 20px; 
+                        color: $primarycolor;
+                        position: absolute;
+                    top: 45px;
+                     left: 28px;
+                        text-transform: capitalize;
+                      }
+                }
+                .days-secound{
+                    height: 80px;
+                    width: 47%;
+                   border: 1px solid #fff;
+                    text-align: center;
+                    margin-left: 112px;
+                    position: relative;
+                    border-radius: 5px;
+                    padding-top: 11px;
+                #hour{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                  color: $primarycolor;
+                }
+                .ho{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px; 
+                    color: $primarycolor;
+                    position: absolute;
+                top: 45px;
+                 left: 19px;
+                    text-transform: capitalize;
+                  }
+                 }
+                 .min-third{
+                    height: 80px;
+                    width: 47%;
+                   border: 1px solid #fff;
+                    text-align: center;
+                    margin-left: 15px;
+                    position: relative;
+                    border-radius: 5px;
+                    padding-top: 11px;
+                #min{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                  color: $primarycolor;
+                }
+                .mi{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px; 
+                    color: $primarycolor;
+                    position: absolute;
+                top: 45px;
+                 left: 22px;
+                    text-transform: capitalize;
+                  }
+                 }
+                 .sec-four{
+                    height: 80px;
+                    width: 47%;
+                   border: 1px solid #fff;
+                    text-align: center;
+                    margin-left: -78px;
+                    position: relative;
+                    border-radius: 5px;
+                    padding-top: 11px;
+                #sec{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                  color: $primarycolor;
+                }
+                h4{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px; 
+                    color: $primarycolor;
+                    position: absolute;
+                top: 45px;
+                 left: 21px;
+                    text-transform: capitalize;
+                  }
+                 }
+               }
+              
+              
+                h2{
+                    position: relative;
+                    top: 205px;
+                    left: 140px;                
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 40px;
+                    color: $primarycolor;
+                }
+                h3{
+                    position: relative;
+                    top: 144px;
+                    left: 322px;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 40px;
+                    color: $primarycolor;
+                }
+                .supper{
+                    left: 375px;
+                    top: 91px;
+                    color: $primarycolor;
+                    width: 26%;
+                }
+                h4{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 24px;
+                    color: $primarycolor;
+                    position: relative;
+                    top: 109px;
+                    left: 500px;
+                    width: 16%;
+                }
+                .sectime{
+                    left: 487px;
+                }
+                .times{
+                    position: relative;
+                    top: 121px;
+                    left: 2px;
+                    .col-sm-3 {
+                 
+                        width: 14%;
+                    }
+                    .wrapper {
+                        text-align: center;
+                        border: 1px solid #fff;
+                        border-radius: 5px;
+                        padding: 10px;
+                    }
+                    .time {
+                        color: $primarycolor;
+                        font-size: 22px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                    }
+                    .label {
+                        font-size: 21px;
+                        color: $primarycolor;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                    }
+                }
+                
+            }
+            .tick{
+                position: absolute;
+                top: 105%;
+                right: 180px;
+                z-index: 99;
+                a{
+                    display: inline-block;
+                    font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: $primarycolor;
+            margin: 0 10px;
+            padding: 10px 15px;
+            border: 1px solid $primarycolor;
+            border-radius: 5px;
+            transition: .4s;
+            &:hover{
+                border-color: #fff;
+                background: #fff;
+            }
+                }
+            }
+            .pic{
+                position: relative;
+                top: 227px;
+                left: 424px;
+                img{
+                    width: 73%;
+                }
+            }
+           
+        }
+       
+    }
+   
+     .carousel-control-prev {
+        opacity: 1;
+        z-index: 9999;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        z-index: 99;
+        opacity: 1;
+    }
+    .prevs{
+        position: relative;
+        font-size: 36px;
+     &::after{
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         position: absolute;
+         top: -3px;
+         left: -19px;
+        content: "";
+        transition: .4s;
+        z-index: -1;
+     }
+     &:hover{
+        color: #444444;
+    }
+    &:hover::after{
+       background: #fff;
+     
+   }
+    }
+     .nexts{
+        position: relative;
+        font-size: 36px;
+        z-index: 999;
+        transition: .4s;
+     &::after{
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         border: 1px solid #fff;
+         position: absolute;
+         top: -3px;
+        right: 14px;
+        content: "";
+        background: transparent;
+        transition: .4s;
+        z-index: -1;
+     }
+     &:hover{
+         color: #444444;
+     }
+     &:hover::after{
+        background: #fff;
+      
+    }
+
+    }
+    
+}
